@@ -2,13 +2,7 @@
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/Sfg848j/6nlw.png" alt="5NLW" border="0"></a>
 </p>
 <h1 align="center">
-    <br>
-    <img src="./.github/logo-podcastr.svg" width="200" heigh="150" alt="logo podcastr">
-</h1>
-<h4 align="center">
-    Trilha ReactJS <img src="./.github/logo-react.svg" height="15" alt="logo react">
-</h4>
-<!-- <h4 align="center">Projeto web construído durante o Next Level Week #05-Discovery com a Rocketseat/DiegoFernandes.</h4> -->
+
 <p align="center">
     <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=Mobile/PC&color=04d361&labelColor=8257e5">
     <a aria-label="Completado" href="https://nextlevelweek.com/episodios/react/5/edicao/5">
@@ -28,22 +22,16 @@
     <a href="#layout-">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#licença-%EF%B8%8F">Licença</a>
 </p>
-<!--
-<p align="center">
-    <a href="README.md">Inglês</a>
-    ·
-    <a href="README-pt.md">Português</a>
-</p>
--->
 
-# Podcastr <img src=".github/logo-podcastr.svg" width="30" alt="logo icon">
+
+# Podcastr
 Projeto desenvolvido para gerenciar seus podcasts. Projeto realizado na Next Level Week #5 @Rocketseat.
 
 ###### O melhor para você ouvir, sempre. 🎧🎶
 
 <br>
 
-#### Funcionalidades <img src=".github/headphone.svg" width="15" alt="logo headphone">
+#### Funcionalidades
 * Escutar podcast.
 * Visualizar sobre o que se trata o podcast.
 * Gerenciar podcasts.
@@ -61,8 +49,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Layout 🚧
 ## Desktop Screenshot
-<div style="display: flex; flex-direction: 'column'; align-items: 'center';">
-<!-- Responsive, 1440 x 900, 50% (Laptop L - 1440px)-->
+<!--<div style="display: flex; flex-direction: 'column'; align-items: 'center';">
+<!-- Responsive, 1440 x 900, 50% (Laptop L - 1440px)
     <img width="400px" src="./.github/desktop/home-without-podcast.png">
     <img width="400px" src="./.github/desktop/home-with-podcast.png">
     <img width="400px" src="./.github/desktop/podcast-information.png">
@@ -72,10 +60,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Mobile Screenshot
 <div style="display: flex; flex-direction: 'row';">
 <!-- Responsive, 425 x 900, 60% (Mobile L - 425px)-->
-    Em breve...
-    <!--<img width="180px" src="./.github/mobile/home-without-podcast.png">-->
-    <!--<img width="180px" src="./.github/mobile/home-with-podcast.png">-->
-    <!--<img width="180px" src="./.github/mobile/podcast-information.png">-->
+
 </div>
 <!--<a href="./.github/README-IMGS.md">Ver mais</a>-->
     <!-- IMGS
@@ -87,11 +72,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
       ------------------------------
     -->
 
-## Rodando o projeto 🚴🏻‍♂️
-#### "Só vou dar uma olhadinha...":
-  <a href="https://podcastr-nyctibiusvii.vercel.app/">🎧 Site hospedado na Vercel 🎶</a>
-
 #### Na sua maquina:
+
+
 <details>
     <summary>Dependências</summary>
 
@@ -147,18 +130,6 @@ Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://disc
 ## Licença ⚖️
 Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](https://github.com/NyctibiusVII/Podcastr/blob/main/LICENSE) para mais detalhes.
 
-## Contato ✉️
-| <img src="https://user-images.githubusercontent.com/52816125/90341686-05b68880-dfd8-11ea-969c-70c9ce9d0278.jpg" width=100><br><sub><a href="https://www.instagram.com/nyctibius_vii/?hl=pt-br">@MatheusVidigal🦊</a></sub> |
-| :---: |
-
-<p align="left">
-    <a href="https://www.linkedin.com/in/matheus-vidigal-nyctibiusvii/">
-        <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-8257e5?style=flat&logo=Linkedin&logoColor=fff" />
-    </a>
-    <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSGLCKpKJfwPsKKqzXBplKkGtCLvCQcFWdWxCxQFfkHzzjVkgzrMFPBgKBmWFHvrjrCsMqSH">
-        <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-Matheus Vidigal-04d361?style=flat&logo=Gmail&logoColor=fff" />
-    </a>
-</p>
-<p align="justify">
+<p align="center">
 <a href="https://ibb.co/QcwWvS5"><img src="https://i.ibb.co/VN4FYnK/cover-reactjs.png" alt="background" border="0"></a>
 </p>

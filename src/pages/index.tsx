@@ -4,6 +4,8 @@ import ptBR from 'date-fns/locale/pt-BR';
 import { api } from '../services/api';
 import { convertDurationToTImeString } from '../utils/convertDurationToTimeString';
 
+import styles from './home.module.scss';
+
 type Episode = {
   id: string;
   title: string;
@@ -21,9 +23,12 @@ type HomeProps = {
 
 export default function Home(props: HomeProps) {
   return (
-    <div>
-      <h1>Index</h1>
-      <p>{JSON.stringify(props.episodes)}</p>
+    <div className={styles.homepage}>
+      <section className={styles.lastestEpisodes}>
+        <h2>Últimos Lançamentos</h2>
+      </section>
+
+      <section className={styles.allEpisodes}> </section>
     </div>
   )
 }

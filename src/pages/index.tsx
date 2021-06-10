@@ -4,8 +4,6 @@ import ptBR from 'date-fns/locale/pt-BR';
 import { api } from '../services/api';
 import { convertDurationToTImeString } from '../utils/convertDurationToTimeString';
 
-import styles from './home.module.scss';
-
 type Episode = {
   id: string;
   title: string;
@@ -18,33 +16,17 @@ type Episode = {
 }
 
 type HomeProps = {
-  latestEpisodes: Episode[];
-  allEpisodes: Episode[];
+  episodes: Episode[];
 }
 
-export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function Home(props: HomeProps) {
   return (
-    <div className={styles.homepage}>
-      <section className={styles.lastestEpisodes}>
-        <h2>Últimos Lançamentos</h2>
-
-        <ul>
-          {latestEpisodes.map(episode => {
-            return (
-              <li>
-                <a href="*"></a>
-              </li>
-            )
-          })}
-
-        </ul>
-      </section>
-
-      <section className={styles.allEpisodes}> </section>
+    <div>
+      <h1>Index</h1>
+      <p>{JSON.stringify(props.episodes)}</p>
     </div>
   )
 }
-
 export const getStaticProps: GetStaticProps = async () => {
   const { data } = await api.get('episodes', {
     params: {
@@ -53,7 +35,6 @@ export const getStaticProps: GetStaticProps = async () => {
       _order: 'desc'
     }
   })
-
   const episodes = data.map(episode => {
     return {
       id: episode.id,
@@ -68,13 +49,9 @@ export const getStaticProps: GetStaticProps = async () => {
     }
   })
 
-  const lastestEpisodes = episodes.slice(0, 2);
-  const allEpisodes = episodes.slice(2, episodes.length)
-
   return {
     props: {
-      lastestEpisodes,
-      allEpisodes
+      episodes
     },
     revalidate: 60 * 60 * 8, // - 8h
   }

@@ -1,0 +1,47 @@
+[33mcommit ac5e90635658a441558c83b424af3bd25bb98b1c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Wed Jun 9 20:29:53 2021 -0300
+
+    latest episodes
+
+[33mcommit 090b69b185625a1a756d286a293f0d2e988bb42a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Tue Jun 8 22:45:41 2021 -0300
+
+    comçando estilização
+
+[33mcommit a7513fcd443c8fc81034f21604d8d9f0b1b10a44[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Tue Jun 8 22:30:26 2021 -0300
+
+    estruturando os metadados
+
+[33mcommit e08c79b764efa1a24fdd25ca6bf63b1476ba16ba[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Tue Jun 8 22:06:30 2021 -0300
+
+    Duration
+
+[33mcommit abf163406b79e8dbd8d66930bb98deea7876aeb1[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Tue Jun 8 22:05:59 2021 -0300
+
+    timeString - até agora está funcionando
+
+[33mcommit 30be74ddd15edc0400131b58c296799673f232fb[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Tue Jun 8 21:19:00 2021 -0300
+
+    getstatic configurado
+
+[33mcommit 7c4e17db3b8bfbdb59d6b09347fb33254aa3e4d1[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Tue Jun 8 19:00:24 2021 -0300
+
+    aula 2 completa - tudo funcionando
+
+[33mcommit a524fb204b176b1ab4ab8410493ef16b8af9ed0e[m
+Author: Jorge de Souza <jorgejrdj1@gmail.com>
+Date:   Mon Jun 7 20:19:34 2021 -0300
+
+    Initial commit from Create Next App

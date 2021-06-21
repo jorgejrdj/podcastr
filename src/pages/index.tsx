@@ -6,6 +6,8 @@ import ptBR from 'date-fns/locale/pt-BR';
 import { api } from '../services/api';
 import { convertDurationToTImeString } from '../utils/convertDurationToTimeString';
 import styles from './home.module.scss';
+import { useContext } from 'react';
+import { PlayerContext } from '../context/PlayerContext';
 type Episode = {
   id: string;
   title: string;
@@ -22,10 +24,13 @@ type HomeProps = {
   allEpisodes: Episode[];
 }
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
+  const { play, episodeList, currentEpisodeIndex } = useContext(PlayerContext)
+
+
   return (
     <div className={styles.homepage}>
       <section className={styles.latestEpisodes}>
-        <h2> Últimos Lançamentos </h2>
+        <h2> Últimos Lançamentos, para você </h2>
         <ul>
           {latestEpisodes.map(episode => {
             return (
@@ -45,7 +50,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   <span>{episode.publishedAt}</span>
                   <span>{episode.durationAsString}</span>
                 </div>
-                <button type="button">
+                <button type="button" onClick={() => play(episode)}>
                   <img src="/play-green.svg" alt="Tocar Episódio" />
                 </button>
               </li>
@@ -53,6 +58,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
           })}
         </ul>
       </section>
+
       <section className={styles.allEpisodes}>
         <h2>Todos os episódios</h2>
         <table cellSpacing={0}>

@@ -125,7 +125,7 @@ Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://disc
 | Dia 1 | #MissaoEspacial        |
 | Dia 2 | #EmBuscaDoPróximoNível |
 | Dia 3 | #Astronautas           |
-| Dia 4 | # |
+| Dia 4 | #UniversoInfinito      |
 | Dia 5 | # |
 
 ## Licença ⚖️

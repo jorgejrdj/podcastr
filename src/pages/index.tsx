@@ -7,7 +7,7 @@ import { api } from '../services/api';
 import { convertDurationToTImeString } from '../utils/convertDurationToTimeString';
 import styles from './home.module.scss';
 import { useContext } from 'react';
-import { PlayerContext } from '../context/PlayerContext';
+import { usePlayer } from '../context/PlayerContext';
 type Episode = {
   id: string;
   title: string;
@@ -24,7 +24,7 @@ type HomeProps = {
   allEpisodes: Episode[];
 }
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
-  const { playList } = useContext(PlayerContext)
+  const { playList } = usePlayer();
   const episodeList = [...latestEpisodes, ...allEpisodes];
 
 

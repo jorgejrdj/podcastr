@@ -126,10 +126,10 @@ Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://disc
 | Dia 2 | #EmBuscaDoPróximoNível |
 | Dia 3 | #Astronautas           |
 | Dia 4 | #UniversoInfinito      |
-| Dia 5 | # |
+| Dia 5 | #MissaoCumprida        |
 
 ## Licença ⚖️
-Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](https://github.com/NyctibiusVII/Podcastr/blob/main/LICENSE) para mais detalhes.
+Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](https://github.com/jorgejrdj/Podcastr/blob/main/LICENSE) para mais detalhes.
 
 <p align="center">
 <a href="https://ibb.co/QcwWvS5"><img src="https://i.ibb.co/VN4FYnK/cover-reactjs.png" alt="background" border="0"></a>

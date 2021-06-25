@@ -98,7 +98,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/NyctibiusVII/Podcastr.git
+$ git clone https://github.com/jorgejrdj
 
 # Acesse a pasta do projeto no prompt de comando
 $ cd podcastr

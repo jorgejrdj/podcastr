@@ -7,15 +7,7 @@
     <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=Mobile/PC&color=04d361&labelColor=8257e5">
     <a aria-label="Completado" href="https://nextlevelweek.com/episodios/react/5/edicao/5">
         <img alt="Podcastr" src="https://img.shields.io/badge/Podcastr-NLW 5.0-04d361?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=8257e5"></img>
-    </a>
-    <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/NyctibiusVII/Podcastr?color=04d361&labelColor=8257e5">
-    <a href="https://github.com/NyctibiusVII/Podcastr/blob/main/LICENSE">
-        <img alt="Licença" src="https://img.shields.io/static/v1?label=License&message=MIT&color=04d361&labelColor=8257e5">
-    </a>
-    <a href="https://picpay.me/Matheus_nyctibius_vii">
-        <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=8257e5&labelColor=04d361">
-    </a>
-</p>
+    </p>
 <p align="center">
     <a href="#podcastr-">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#tecnologias-">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -100,7 +92,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/NyctibiusVII/Podcastr.git
+$ git clone https://github.com/jorgejrdj/podcastr
 
 # Acesse a pasta do projeto no prompt de comando
 $ cd podcastr
